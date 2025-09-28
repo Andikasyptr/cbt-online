@@ -85,12 +85,12 @@
                           rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500
                           dark:focus:ring-offset-gray-800"
                    href="{{ route('password.request') }}">
-                    {{ __('Lupa Password') }}
+                    {{ __('Lupa sandi?') }}
                 </a>
             @endif
 
             <x-primary-button class="ms-3">
-                {{ __('Masuk') }}
+                {{ __('Log in') }}
             </x-primary-button>
         </div>
     </form>
