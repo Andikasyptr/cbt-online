@@ -85,7 +85,7 @@
                           rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500
                           dark:focus:ring-offset-gray-800"
                    href="{{ route('password.request') }}">
-                    {{ __('lupa sandi?') }}
+                    {{ __('Lupa Password') }}
                 </a>
             @endif
 
